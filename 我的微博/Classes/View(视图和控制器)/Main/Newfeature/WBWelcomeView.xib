@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WBWelcomeView" customModule="我的微博" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ad_background" translatesAutoresizingMaskIntoConstraints="NO" id="Mmh-Hd-m9L">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1YS-Jk-6QV">
+                    <rect key="frame" x="144.5" y="422" width="85" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="auD-cu-Zog"/>
+                        <constraint firstAttribute="width" constant="85" id="bNo-MP-5K1"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎归来" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBu-ns-0co">
+                    <rect key="frame" x="152" y="527" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gBu-ns-0co" firstAttribute="centerX" secondItem="1YS-Jk-6QV" secondAttribute="centerX" id="Bkm-aL-dDc"/>
+                <constraint firstItem="gBu-ns-0co" firstAttribute="top" secondItem="1YS-Jk-6QV" secondAttribute="bottom" constant="20" id="QqW-fn-ZRR"/>
+                <constraint firstAttribute="bottom" secondItem="1YS-Jk-6QV" secondAttribute="bottom" constant="160" id="miw-9k-GcL"/>
+                <constraint firstItem="1YS-Jk-6QV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sNK-ax-4hC"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomConstraint" destination="miw-9k-GcL" id="IA9-hF-iu2"/>
+                <outlet property="iconView" destination="1YS-Jk-6QV" id="h9Q-HS-FZA"/>
+                <outlet property="tipLabel" destination="gBu-ns-0co" id="zrZ-CZ-5Zp"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ad_background" width="375" height="667"/>
+    </resources>
+</document>

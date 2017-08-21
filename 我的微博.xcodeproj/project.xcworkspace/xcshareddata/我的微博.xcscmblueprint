@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "efd4accd-9489-4790-b70e-9f0ba152adff",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "efd4accd-9489-4790-b70e-9f0ba152adff" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "efd4accd-9489-4790-b70e-9f0ba152adff" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "75B9476B-9D59-4F7B-8268-075C569CC777",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "efd4accd-9489-4790-b70e-9f0ba152adff" : "WeiBo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "我的微博",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "我的微博\/我的微博.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/3436670943%40qq.com@git.oschina.net\/iosXiaoHe\/WeiBo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "efd4accd-9489-4790-b70e-9f0ba152adff"
+    }
+  ]
+}
